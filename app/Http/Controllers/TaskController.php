@@ -10,8 +10,7 @@ class TaskController extends Controller
 {
 
   
-    //
- public function index(){
+  public function index(){
     $tarefa = Task::all();
 
     return Inertia::render('Listagem', [
